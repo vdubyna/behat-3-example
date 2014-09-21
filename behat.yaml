@@ -1,6 +1,4 @@
 default:
-  formatter:
-    name: TeamCityFormatter,pretty
   extensions:
     Behat\MinkExtension\ServiceContainer\MinkExtension:
       base_url: http://en.wikipedia.org
